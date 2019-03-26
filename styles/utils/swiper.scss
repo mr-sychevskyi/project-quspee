@@ -1,0 +1,47 @@
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+}
+
+.swiper-navigation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+
+  background: #F5F1FF;
+  border-radius: 50%;
+  outline: none;
+
+  svg {
+    fill: #6C4FB9;
+  }
+
+  &:hover {
+    background: linear-gradient(264.06deg, #8F62CA 8.67%, #5240AD 86.48%);
+
+    svg {
+      fill: #FFF;
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-button-prev,
+.swiper-container-rtl {
+  position: static;
+}

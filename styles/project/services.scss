@@ -1,0 +1,28 @@
+.services {
+  position: relative;
+  z-index: 100;
+  padding: 50px 75px;
+
+  background: #FFF;
+  box-shadow: 0 0 40px rgba(193, 193, 193, 0.25);
+  border-radius: 4px;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &__item {
+    width: 30%;
+  }
+
+  &__item:nth-child(n+4) {
+    margin-top: 90px;
+  }
+}
+
+.service__description {
+  margin-top: 20px;
+}

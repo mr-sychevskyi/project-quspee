@@ -1,0 +1,22 @@
+.tasks-content {
+  display: flex;
+  justify-content: center;
+}
+
+.tasks-done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 120px;
+
+  font-weight: 500;
+  line-height: normal;
+  font-size: 3rem;
+  letter-spacing: 0.25em;
+  color: #FFF;
+
+  background: linear-gradient(248.67deg, #8F62CA 8.67%, #5240AD 86.48%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+}

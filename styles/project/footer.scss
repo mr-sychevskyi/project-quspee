@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+  padding-top: 140px;
+  min-height: 250px;
+
+  background: url(../images/backgrounds/bg-footer.svg) no-repeat bottom;
+  background-size: 100% 100%;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__column {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__copyright {
+    margin-left: 15px;
+  }
+}
+
+.copyright {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  line-height: normal;
+  color: #FFF;
+}

@@ -1,0 +1,34 @@
+.circle {
+  position: absolute;
+
+  display: block;
+
+  background: rgba(73, 22, 171, 0.08);
+  border-radius: 50%;
+}
+
+.circle-sm {
+  left: 1050px;
+  top: 525px;
+
+  width: 369px;
+  height: 369px;
+}
+
+.circle-md {
+  top: 115px;
+  left: -120px;
+
+  width: 426px;
+  height: 426px;
+
+  background: rgba(49, 16, 114, 0.08);
+}
+
+.circle-lg {
+  left: 850px;
+  top: -250px;
+
+  width: 704px;
+  height: 704px;
+}

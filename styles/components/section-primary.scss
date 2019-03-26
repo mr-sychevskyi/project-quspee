@@ -1,0 +1,45 @@
+.section-primary {
+  position: relative;
+  z-index: 10;
+
+  margin: 100px 0;
+  text-align: center;
+
+  &__title {
+    margin-top: 15px;
+  }
+
+  &__description {
+    margin-top: 25px;
+  }
+
+  &__body {
+    margin-top: 65px;
+  }
+
+  &.main__services {
+    margin-top: -115px;
+  }
+
+  &.main__tasks {
+    margin: 160px 0;
+
+    .section-primary__body {
+      margin-top: 45px;
+    }
+  }
+
+  &.main__steps {
+    .section-primary__body {
+      margin-top: 95px;
+    }
+  }
+
+  &.main__faq {
+    margin-top: 150px;
+  }
+
+  &.main__get-started {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,9 @@
+.accordion:hover {
+  cursor: pointer;
+}
+
+.accordion-panel {
+  display: none;
+  overflow: hidden;
+  animation: fadeEffect .5s ease-in;
+}

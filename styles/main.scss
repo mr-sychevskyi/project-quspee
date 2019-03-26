@@ -1,0 +1,51 @@
+/* --------------------------------------------------------
+   STYLES
+   -------------------------------------------------------- */
+
+// Foundation
+@import
+  'foundation/normalize',
+  'foundation/typography',
+  'foundation/common';
+
+// Base
+@import
+  'base/animations',
+  'base/buttons';
+
+// Components
+@import
+  'components/modal',
+  'components/circle',
+  'components/divider',
+  'components/counter',
+  'components/snackbar',
+  'components/accordion',
+  'components/tooltip',
+  'components/toggle-button',
+  'components/get-started',
+  'components/bill',
+  'components/section-primary',
+  'components/section-wrapper',
+  'components/contact-form',
+  'components/contact-modal',
+  'components/social-list',
+  'components/tasks-done';
+
+// Utils
+@import
+  'utils/swiper';
+
+// Project
+@import
+  'project/main-navigation',
+  'project/navbar',
+  'project/hero-section',
+  'project/main',
+  'project/services',
+  'project/works',
+  'project/steps',
+  'project/faq',
+  'project/clients',
+  'project/footer',
+  'base/media';

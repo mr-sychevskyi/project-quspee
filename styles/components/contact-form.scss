@@ -1,0 +1,99 @@
+.contact-form {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    &__label {
+      margin-bottom: 15px;
+
+      font-size: 1rem;
+      line-height: 23px;
+      color: #949EA5;
+    }
+
+    &__input {
+      flex-basis: 100%;
+      padding: 14px 30px;
+
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      color: #949EA5;
+
+      border: 1px solid #DCEDF8;
+      border-radius: 90px;
+      background: #FFF;
+
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      &:valid {
+        border-color: #19BC51;
+      }
+
+      &:focus {
+        border-color: #825AC3;
+      }
+
+      &:focus.invalid {
+        border-color: #DE1042;
+      }
+    }
+
+    &__input::placeholder,
+    &-webkit-input-placeholder {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      color: #949EA5;
+    }
+  }
+
+  .form-group:not(:first-of-type) {
+    margin-top: 20px;
+  }
+
+  &__submit {
+    float: right;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  &__snackbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .country-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &-state {
+      display: none;
+    }
+
+    &__item:first-of-type {
+      width: 100%;
+    }
+  }
+
+  .country-group.is-usa {
+    .country-group__item:first-of-type {
+      width: 30%;
+    }
+
+    .country-group__item:last-of-type {
+      width: 65%;
+      margin-top: 0;
+    }
+
+    .country-group-state {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.social-list {
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    display: block;
+    padding: 10px 12px;
+
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #FFF;
+
+    transition: all .4s ease-out;
+
+    &:hover {
+      color: #030303;
+      text-decoration: underline !important;
+    }
+  }
+}

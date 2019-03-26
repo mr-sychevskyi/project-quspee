@@ -1,0 +1,9 @@
+.clients-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client.client_align_normal {
+  align-self: normal;
+}
