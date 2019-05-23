@@ -1,1 +1,1 @@
-# Demo: [Github Pages](https://mr-sychevskyi.github.io/project-quspee/index.html)
+# Demo: [Github Pages](https://mr-sychevskyi.gitlab.io/project-quspee/index.html)
